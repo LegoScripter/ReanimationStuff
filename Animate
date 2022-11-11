@@ -1,6 +1,6 @@
 rig = game:GetService("Players").LocalPlayer.Character
 
-local Figure = rig.Animate.Parent
+local Figure = rig
 local Torso = Figure:WaitForChild("Torso")
 local RightShoulder = Torso:WaitForChild("Right Shoulder")
 local LeftShoulder = Torso:WaitForChild("Left Shoulder")
